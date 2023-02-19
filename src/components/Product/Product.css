@@ -1,0 +1,12 @@
+.single-product{
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px grey;
+}
+.pro-img{
+    width: 150px;
+    height: 200px;
+    /* width: 35%; */
+}
+.single-product:hover{
+    box-shadow: 0px 0px 50px 0px rgb(128, 203, 249);
+}
