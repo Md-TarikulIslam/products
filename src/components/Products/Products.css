@@ -3,5 +3,13 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin: 50px;
+ 
   
+}
+
+@media only screen and (max-width: 480px) {
+
+    .products-area{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

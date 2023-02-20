@@ -1,12 +1,41 @@
 .single-product{
     border-radius: 20px;
     box-shadow: 0px 0px 5px 0px grey;
+    height: 450px;
 }
 .pro-img{
-    width: 150px;
-    height: 200px;
-    /* width: 35%; */
+    width: 250px;
+    height: 300px;
+    /* margin-left: 80px; */
+    position: relative;
+    left: 40px;
+
+}
+.btn{
+    position: relative;
+    right: 130px;
+    top: 50px;
+    background: blue;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 700;
+
 }
 .single-product:hover{
     box-shadow: 0px 0px 50px 0px rgb(128, 203, 249);
+}
+
+@media only screen and (max-width: 480px) {
+    .btn{
+        left: 0px;
+        top: 20px;
+    }
+    .pro-img{
+      left: 0;
+    }
 }
